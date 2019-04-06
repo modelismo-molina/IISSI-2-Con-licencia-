@@ -161,7 +161,11 @@ main .articles article fieldset{
 	margin-bottom: 20px;
 	border-radius: 15px;
 	border-bottom: 3px #939393 outset;
+<<<<<<< HEAD
 	height: 400px;
+=======
+	height: 600px;
+>>>>>>> 2eaa83df7a6da5cae04c205f16703b6bb3a252b1
 
 }
 #usuario{
