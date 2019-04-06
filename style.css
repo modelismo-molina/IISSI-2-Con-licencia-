@@ -351,6 +351,13 @@ footer .right a{
 	color:#939393;
 }
 
-footer .right a:hover{ 
-	color:#C9A72B;
+
+#footer-zone { 
+  height: 50px; 
+  background:black; 
+  width:100%; 
+  position:absolute; 
+  bottom:; 
+  left:; 
+}
 }
