@@ -1,15 +1,18 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<meta charse = "UTF-8">
+	<meta charset = "UTF-8">
 	<title>Registro Usuario</title>
-	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	<link rel = "stylesheet" type = "text/css" href = "styleRegistro.css">
 </head>
 <body> 	
 	<!-- *****************************************************Header*****************************************************-->
 	<header id="header">
 		<div class="shell">
 			
-			<a href="index.html"><img src="images/Berserk_logo.png" alt="Logotipo" width="250"><a href="index.html"></a>
+			<a href="pre-registro.html" id="atras"><img src="images/flechaizquierda.png" alt="FlechaParaVolverAtras" width="50"></a>
+
+			<a href="index.html"><img src="images/Berserk_logo.png" alt="Logotipo" width="250"></a>
 			
 		</div>
 	</header>
@@ -28,11 +31,11 @@
 						<legend>
 							<h3> Datos personales </h3>
 						</legend>
-						<label for="nif">NIF<em>*</em></label>
+						<label for="nif"><em>*</em>NIF</label>
 						<input id="nif" name="nif" type="text" placeholder="12345678X" pattern="^[0-9]{8}[A-Z]" title="Ocho dígitos seguidos de una letra mayúscula" required>
 						<br>
 
-						<label for="nombre">Nombre:<em>*</em></label>
+						<label for="nombre"><em>*</em>Nombre:</label>
 						<input id="nombre" name="nombre" type="text" size="40" required/>
 						<br>
 
@@ -56,7 +59,7 @@
 						<input type="date" id="fechaNacimiento" name="fechaNacimiento" required/>
 						<br>
 
-						<label for="email">Email:<em>*</em></label>
+						<label for="email"><em>*</em>Email:</label>
 						<input id="email" name="email"  type="email" placeholder="usuario@dominio.extension" required/><br>
 
 						<br>
@@ -70,11 +73,11 @@
 						<input id="nick" name="nick" type="text" size="40" required/>
 						<br>
 
-						<label for="pass">Password:<em>*</em></label>
+						<label for="pass"><em>*</em>Password:</label>
 						<input type="password" name="pass" id="pass" placeholder="Mínimo 8 caracteres entre letras y dígitos" required />
 
 						<br>
-						<label for="confirmpass">Confirmar Password: <em>*</em></label>
+						<label for="confirmpass"> <em>*</em>Confirmar Password:</label>
 						<input type="password" name="confirmpass" id="confirmpass" placeholder="Confirmación de contraseña" required />
 						<br>
 
@@ -103,11 +106,11 @@
 							<h3> Dirección </h3>
 						</legend>
 
-						<label for="calle">Calle/Avda.:<em>*</em></label>
+						<label for="calle"><em>*</em>Calle/Avda.:</label>
 						<input id="calle" name="calle" type="text" size="80"/>
 						<br>
 
-						<label for="provincia">Provincia:<em>*</em></label>
+						<label for="provincia"><em>*</em>Provincia:</label>
 						<input list="opcionesProvincias" name="provincia" id="provincia"/>
 						<datalist id="opcionesProvincias">
 						  	<option value="CD">Cádiz</option>
@@ -138,7 +141,7 @@
 		<div class="shell">
 			
 			<!-- *****************************************************Footer Logo***************************************************** -->
-			<a href="index.html"><img src="images/Berserk_logo.png" alt="Logotipo" width="200"><a href="index.html"></a>
+			<a href="index.html"><img src="images/Berserk_logo.png" alt="Logotipo" width="200"></a>
 			<!-- *****************************************************End Footer***************************************************** -->
 			
 			<!-- *****************************************************Footer Nav***************************************************** -->
